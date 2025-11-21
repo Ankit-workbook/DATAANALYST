@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ankit Yadav - Data Analyst portfolio showcasing ROI-driven analytics, interactive dashboards, and Big 4-ready case studies.">
+    <meta name="author" content="Ankit Yadav">
+    <meta property="og:title" content="Ankit Yadav | Data Analyst Portfolio">
+    <meta property="og:description" content="Transforming complex data into $2.8M in strategic savings. Explore projects, skills, and certifications.">
+    <meta property="og:type" content="website">
+    <title>Ankit Yadav | Data Analyst Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-GYbBm0G8GwEuITdSb9VjA36TObgGJE0E7E5Wdl66iRS0LlwM651c01qmPvvrLpzjAU6RytYz0LG3nX9lm9f4iA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen" role="status" aria-live="polite">
+        <div class="loading-content">
+            <p>Initializing analytics environment...</p>
+            <div class="loading-bar">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="tsparticles"></div>
+    <div class="cursor-trail" id="cursorTrail" aria-hidden="true"></div>
+
+    <header class="hero" id="hero" aria-labelledby="hero-title">
+        <nav class="top-nav" aria-label="Primary">
+            <a class="logo" href="#hero" aria-label="Ankit Yadav Home">
+                <span>Ankit</span><span>Yadav</span>
+            </a>
+            <div class="nav-right">
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" type="button">☰</button>
+                <ul class="nav-links" id="navLinks">
+                
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="mailto:ankitpuneet010@gmail.com">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="hero-layout">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+                <h1 id="hero-title" class="hero-title">
+                    <span class="typed" id="typedHeadline">DATA ANALYST</span>
+                </h1>
+                <p class="hero-subtitle">Data Cleaning <span aria-hidden="true">|</span> Google Big Query <span aria-hidden="true">|</span> Insights Engineer</p>
+                <div class="hero-cta">
+                    <a class="primary-btn" href="#impact">Explore Insights</a>
+                    <a class="secondary-btn" href="assets/Ankit_Yadav_Resume.pdf" download>Download Resume</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                        <strong>5+</strong>
+                        <span>Personal Projects cleaned and visualized</span>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                        <strong>3+</strong>
+                        <span>Stakeholder Projects Analyzed</span>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="500">
+                        <strong>4+</strong>
+                        <span>Dynamic Dashboards</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <div class="dashboard-frame">
+                    <div class="dashboard-grid">
+                        <div class="dashboard-card niche-card">
+                            <div class="card-header">
+                                <span>Industry Niches</span>
+                            </div>
+                            <div class="niche-list">
+                                <div class="niche-item">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span>Retail</span>
+                                </div>
+                                <div class="niche-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Finance</span>
+                                </div>
+                                <div class="niche-item">
+                                    <i class="fas fa-cogs"></i>
+                                    <span>Operations</span>
+                                </div>
+                                <div class="niche-item">
+                                    <i class="fas fa-truck"></i>
+                                    <span>Supply Chain</span>
+                                </div>
+                                <div class="niche-item">
+                                    <i class="fas fa-heartbeat"></i>
+                                    <span>Healthcare</span>
+                                </div>
+                                <div class="niche-item">
+                                    <i class="fas fa-laptop-code"></i>
+                                    <span>Technology</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashboard-card exploring-card">
+                            <div class="card-header">
+                                <span>Exploring Fields</span>
+                            </div>
+                            <div class="exploring-list">
+                                <div class="exploring-item">
+                                    <i class="fas fa-chart-pie"></i>
+                                    <span>Financial Analyst</span>
+                                </div>
+                                <div class="exploring-item">
+                                    <i class="fas fa-tasks"></i>
+                                    <span>Operations Analyst</span>
+                                </div>
+                                <div class="exploring-item">
+                                    <i class="fas fa-project-diagram"></i>
+                                    <span>Project Management</span>
+                                </div>
+                                <div class="exploring-item">
+                                    <i class="fas fa-chess"></i>
+                                    <span>Strategy Analyst</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashboard-card skills-card">
+                            <div class="card-header">
+                                <span>Technical Skills</span>
+                            </div>
+                            <div class="skills-grid">
+                                <div class="skill-badge">Python</div>
+                                <div class="skill-badge">SQL</div>
+                                <div class="skill-badge">Excel</div>
+                                <div class="skill-badge">Tableau</div>
+                                <div class="skill-badge">Power BI</div>
+                                <div class="skill-badge">A/B testing</div>
+                                <div class="skill-badge">Pandas</div>
+                                <div class="skill-badge">Google Big Query</div>
+                                <div class="skill-badge">Matplotlib</div>
+                                <div class="skill-badge">Statistics</div>
+                                <div class="skill-badge">Machine Learning</div>
+                                <div class="skill-badge">Data Visualization</div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="floating-metric metric-one">340% ROI</span>
+                    <span class="floating-metric metric-two">12K Analyzed</span>
+                    <span class="floating-metric metric-three">100K+ Records</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll" aria-hidden="true">
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-dots"></div>
+            </div>
+            <div class="data-counter">
+                <span>Data Points Processed</span>
+                <strong id="dataCounter">0</strong>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ankityadav05/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Ankit-workbook/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.kaggle.com/ankityadav05" target="_blank" rel="noopener noreferrer" aria-label="Kaggle" class="social-icon">
+                <i class="fab fa-kaggle"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Power BI" class="social-icon">
+                <i class="fas fa-chart-bar"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Tableau" class="social-icon">
+                <i class="fas fa-chart-line"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="projects" class="projects" aria-labelledby="projects-title">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-kicker">Project Showcase</span>
+                <h2 id="projects-title">Case Studies Engineered for Impact</h2>
+                <p>Each project is a proof point of how analytics rewires decisions to drive measurable ROI.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card" tabindex="0" data-skills="python/sql,tableau,ab-testing,bigquery" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-front">
+                        <div class="project-icon" aria-hidden="true">📦</div>
+                        <h3>Product Performance &amp; Warehouse Optimization</h3>
+                        <p>Supply chain intelligence for retail fulfillment.</p>
+                    </div>
+                    <div class="card-back">
+                        <div class="badge-group" aria-label="Tech stack">
+                            <span class="badge">Python</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Tableau</span>
+                            <span class="badge">A/B Testing</span>
+                        </div>
+                        <p class="project-metric">340% ROI | $2.8M Savings</p>
+                        <p>Optimized warehouse operations via demand forecasting and resource allocation models.</p>
+                        <a class="card-cta" href="https://github.com/placeholder/product-warehouse" target="_blank" rel="noopener">View Analysis</a>
+                    </div>
+                </article>
+                <article class="project-card" tabindex="0" data-skills="python/sql,tableau,ml,excel" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card-front">
+                        <div class="project-icon" aria-hidden="true">💰</div>
+                        <h3>Financial Health &amp; Risk Optimization</h3>
+                        <p>Investor intelligence for tailored product design.</p>
+                    </div>
+                    <div class="card-back">
+                        <div class="badge-group" aria-label="Tech stack">
+                            <span class="badge">Python</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Tableau</span>
+                            <span class="badge">K-Means</span>
+                            <span class="badge">PCA</span>
+                        </div>
+                        <p class="project-metric">12K Investors Segmented</p>
+                        <p>Clustered investor behavior to blueprint risk-aligned revenue strategies.</p>
+                        <a class="card-cta" href="https://github.com/placeholder/financial-health" target="_blank" rel="noopener">Explore Insights</a>
+                    </div>
+                </article>
+                <article class="project-card" tabindex="0" data-skills="python/sql,power-bi,ml" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-front">
+                        <div class="project-icon" aria-hidden="true">🚗</div>
+                        <h3>Urban Mobility Analysis</h3>
+                        <p>Fleet optimization for urban operations.</p>
+                    </div>
+                    <div class="card-back">
+                        <div class="badge-group" aria-label="Tech stack">
+                            <span class="badge">Python</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Power BI</span>
+                        </div>
+                        <p class="project-metric">100K+ Rides Optimized</p>
+                        <p>Orchestrated mobility insights to balance fleet supply with dynamic demand.</p>
+                        <a class="card-cta" href="https://github.com/placeholder/urban-mobility" target="_blank" rel="noopener">See Dashboard</a>
+                    </div>
+                </article>
+            </div>
+            <button class="reset-filter" id="resetFilter" type="button">Reset Skill Highlight</button>
+        </section>
+
+        <section id="skills" class="skills-matrix" aria-labelledby="skills-title">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-kicker">Technical Arsenal</span>
+                <h2 id="skills-title">Skills Orbit</h2>
+                <p>Orbiting skill nodes reveal proficiency levels and relevant project deployments.</p>
+            </div>
+            <div class="orbit-grid" role="list">
+                <button class="skill-node" role="listitem" data-skill="python/sql" data-projects="Product Optimization, Financial Risk, Urban Mobility" data-level="Expert" data-aos="zoom-in">Python &amp; SQL</button>
+                <button class="skill-node" role="listitem" data-skill="tableau" data-projects="Product Optimization, Financial Risk" data-level="Advanced" data-aos="zoom-in" data-aos-delay="50">Tableau</button>
+                <button class="skill-node" role="listitem" data-skill="power-bi" data-projects="Urban Mobility" data-level="Advanced" data-aos="zoom-in" data-aos-delay="100">Power BI</button>
+                <button class="skill-node" role="listitem" data-skill="ab-testing" data-projects="Product Optimization" data-level="Advanced" data-aos="zoom-in" data-aos-delay="150">A/B Testing</button>
+                <button class="skill-node" role="listitem" data-skill="ml" data-projects="Financial Risk, Urban Mobility" data-level="Advanced" data-aos="zoom-in" data-aos-delay="200">Machine Learning</button>
+                <button class="skill-node" role="listitem" data-skill="data-viz" data-projects="Product Optimization, Financial Risk, Urban Mobility" data-level="Expert" data-aos="zoom-in" data-aos-delay="250">Data Visualization</button>
+                <button class="skill-node" role="listitem" data-skill="stat-analysis" data-projects="Financial Risk" data-level="Advanced" data-aos="zoom-in" data-aos-delay="300">Statistical Analysis</button>
+                <button class="skill-node" role="listitem" data-skill="time-series" data-projects="Urban Mobility" data-level="Proficient" data-aos="zoom-in" data-aos-delay="350">Time Series</button>
+                <button class="skill-node" role="listitem" data-skill="git" data-projects="All Projects" data-level="Proficient" data-aos="zoom-in" data-aos-delay="400">Git &amp; Versioning</button>
+                <button class="skill-node" role="listitem" data-skill="bigquery" data-projects="Product Optimization" data-level="Proficient" data-aos="zoom-in" data-aos-delay="450">BigQuery</button>
+                <button class="skill-node" role="listitem" data-skill="jupyter" data-projects="All Projects" data-level="Expert" data-aos="zoom-in" data-aos-delay="500">Jupyter</button>
+                <button class="skill-node" role="listitem" data-skill="excel" data-projects="Financial Risk" data-level="Advanced" data-aos="zoom-in" data-aos-delay="550">Excel</button>
+            </div>
+            <div class="skill-detail" id="skillDetail" aria-live="polite">
+                <h3>Skill Intelligence</h3>
+                <p>Select a skill or project to reveal how it powers measurable outcomes.</p>
+            </div>
+        </section>
+
+        <section id="upcoming-projects" class="upcoming-projects" aria-labelledby="upcoming-title">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-kicker">Upcoming Projects</span>
+                <h2 id="upcoming-title">Stakeholder Projects in Progress</h2>
+                <p>Strategic analysis projects currently under development for key stakeholders.</p>
+            </div>
+            <div class="upcoming-grid">
+                <article class="upcoming-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="upcoming-badge">Coming Soon</div>
+                    <div class="upcoming-icon">📊</div>
+                    <h3>M&A Valuation Analysis</h3>
+                    <p>Comprehensive financial modeling and valuation framework for merger & acquisition opportunities.</p>
+                </article>
+                <article class="upcoming-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="upcoming-badge">Coming Soon</div>
+                    <div class="upcoming-icon">🌏</div>
+                    <h3>China Market Entry Strategy</h3>
+                    <p>Market research and competitive analysis for strategic entry into Chinese markets.</p>
+                </article>
+                <article class="upcoming-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="upcoming-badge">Coming Soon</div>
+                    <div class="upcoming-icon">🎯</div>
+                    <h3>Product Market Fit Analysis</h3>
+                    <p>Data-driven evaluation of product-market alignment and growth potential.</p>
+                </article>
+                <article class="upcoming-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="upcoming-badge">Coming Soon</div>
+                    <div class="upcoming-icon">☕</div>
+                    <h3>Luckin vs Starbucks</h3>
+                    <p>Competitive analysis and market positioning study of China's coffee war dynamics.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications" aria-labelledby="certifications-title">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-kicker">Certification Badges</span>
+                <h2 id="certifications-title">Validated Expertise</h2>
+                <p>Global credentials from industry leaders reinforce a commitment to analytical rigor.</p>
+            </div>
+            <div class="badge-timeline">
+                <article class="badge-card" data-aos="fade-right" aria-label="IBM Data Analytics Professional Certificate">
+                    <div class="badge-content">
+                        <div class="badge-icon" aria-hidden="true">🎖</div>
+                        <h3>IBM Data Analytics Professional Certificate</h3>
+                        <p>Business-ready analytics workflows across SQL, Python, and visualization suites.</p>
+                        <span class="badge-tags">SQL · Python · Excel · Tableau</span>
+                    </div>
+                </article>
+                <article class="badge-card" data-aos="fade-right" data-aos-delay="100" aria-label="Google Data Analytics Certificate">
+                    <div class="badge-content">
+                        <div class="badge-icon" aria-hidden="true">🌐</div>
+                        <h3>Google Data Analytics Certificate</h3>
+                        <p>Case-driven analytics translating stakeholder needs into applied insights.</p>
+                        <span class="badge-tags">R · SQL · Data Viz · Dashboards</span>
+                    </div>
+                </article>
+                <article class="badge-card" data-aos="fade-right" data-aos-delay="200" aria-label="Microsoft Power BI Analyst">
+                    <div class="badge-content">
+                        <div class="badge-icon" aria-hidden="true">⚡</div>
+                        <h3>Microsoft Power BI Analyst</h3>
+                        <p>Enterprise-grade reporting with metrics layers built for executive consumption.</p>
+                        <span class="badge-tags">Power BI · DAX · Data Modeling</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" aria-label="Footer">
+        <p>© <span id="currentYear"></span> Ankit Yadav. Crafted for data-driven impact.</p>
+        <p style="margin-top: 1rem; font-size: 1.1rem; color: var(--text-primary);">
+            Feel Free to ask and connect <strong>ANKIT YADAV</strong><br>
+            <a href="mailto:ankitpuneet010@gmail.com" style="color: var(--accent); text-decoration: none; font-weight: 500;">ankitpuneet010@gmail.com</a>
+        </p>
+    </footer>
+
+    <div class="command-console" id="commandConsole" role="dialog" aria-modal="true" aria-labelledby="consoleTitle" hidden>
+        <div class="console-header">
+            <h2 id="consoleTitle">Insight Terminal</h2>
+            <button type="button" id="closeConsole" aria-label="Close terminal">×</button>
+        </div>
+        <div class="console-body" id="consoleBody" role="document">
+            <p>> Loading analytics intelligence...</p>
+        </div>
+    </div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js" integrity="sha512-fFB70dNDO7xjoMnIKh4j/wcgUp3NEPoPFcAckS4iigFsMghvYDn8ApX2HFqRSbuuSSMzdON3NofM8JrIoVNewg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-0E7wlvJ9z3n0JVpazlRtWLpmjHtkobaN6D+PfYZ7R6pujISiFDUFxu05oig3NbS1RyCBj3Tz6i9V9+XHqU5owg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.3.0/tsparticles.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
